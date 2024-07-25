@@ -8,3 +8,4 @@ jbbpfefferkorn@gmail.com
 The MRI data used in this prototype is from openneuro.org
 
 Philippe Poulin and Guillaume Theaud and Pierre-Marc Jodoin and Maxime Descoteaux (2022). TractoInferno: A large-scale, open-source, multi-site database for machine learning dMRI tractography. OpenNeuro. [Dataset] doi: doi:10.18112/openneuro.ds003900.v1.1.1
+
