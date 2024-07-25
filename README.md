@@ -1,25 +1,5 @@
-# Neuro Volume
-A VDB representation of neurological MRI data.
-![First Render](readme_media/brain_alpha_crop.png)
-
-# Usage
-- Generate a NumPy array suitable for conversion to a VDB, run the cells in `src/neuro_volume/generate_neuro_volume.ipynb`
-- Convert the VDB and load it into blender as a volume by running the `vdb_from_numpy.py` script in the Blender file found here: `blender/vdb_from_numpy.blend`
-    - Note this script can also be found in the `src` folder, but will only run in the Blender environment
-- The material must be selected by hand after loading the VDB
-![Blender Instructions](readme_media/blender_setup.png)
-
-# Why VDB?
-VDBs are a highly performant, art-directable, volumetric data structure that supports animations. Unlike typical meshed based pipelines using the marching cubes algorithm, this volume based approach preserves the scan’s normalized density data throughout the VFX pipeline. The animation support will also be particularly useful when animating FMRI data as outlined in the roadmap below.
-
-For more information on VDBs, see the [openVDB website](https://www.openvdb.org/)
-
-# Roadmap
-- [ ] Docker Container to integrate OpenVDB into `src/neuro_volume`
-- [ ] Automated Blender opening and texturing
-- [ ] Animated FMRI usage
-- [ ] Slice-level rotoscope-based anatomy masking
-- [ ] Improve Blender VDB texturing
+# WARNING this is a Non-Functional Demo Branch
+This is a branch created for a presentation and live demo at [The Recurse Center](https://www.recurse.com/) on July 25 2024. Some features are intentionally broken for demonstration purposes. Please refer to the main branch for a fully functional version of this project.
 
 # Contact
 jbbpfefferkorn@gmail.com
