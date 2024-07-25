@@ -4,3 +4,5 @@
 - RTFB: I should probably read all of the [nibabel](https://nipy.org/nibabel/manual.html) and [openVDB](https://www.openvdb.org/documentation/) documentation before asking any more people for advice
 	- There might be some [[Linear Algebra]] weirdness, especially with the `affine`
 - But, given that the `matplotlib` output is identical, shouldn't the VDB generation be the same? A big old 3D Matrix of density data should be read the same.
+- thank yous:
+- Pietro (code review), Anna and Michelle (great meeting about medical imaging standards)
